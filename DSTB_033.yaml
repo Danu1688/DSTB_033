@@ -1,4 +1,17 @@
 proxies:
+- name: FeryHPINusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 7681d102-9258-4767-870d-bcf2e7a41bc9
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: FeryHPI_LiveDO_1
   type: trojan
   server: circles.asia
