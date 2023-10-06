@@ -1,18 +1,70 @@
 proxies:
-- name: FeryHPINusa_LiveNusa_1
+- name: FeryHpiNusa_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: 7681d102-9258-4767-870d-bcf2e7a41bc9
+  password: f18585e3-79a6-4594-bb09-234f33b76e59
   udp: true
-  sni: vpna4mvbhv.scpotato.me
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: FeryHPI_LiveDO_1
+      Host: nusa.dstb.cloud
+- name: FeryHpiNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: f18585e3-79a6-4594-bb09-234f33b76e59
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: FeryHpiNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: f18585e3-79a6-4594-bb09-234f33b76e59
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: FeryHpiNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: f18585e3-79a6-4594-bb09-234f33b76e59
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: FeryHpiNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: f18585e3-79a6-4594-bb09-234f33b76e59
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: FeryHPIDo1_Live_1
   type: trojan
   server: circles.asia
   port: 443
@@ -25,7 +77,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: TrojanWsSvr-Live_1
+- name: TrojanWsDo3-Live_1
   type: trojan
   server: circles.asia
   port: 443
